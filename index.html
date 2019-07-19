@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Desafio 3 - Fernanda Buzzarello</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body id="pagina">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-10 col-md-8">
+                <div id="formulario">
+                    <h1>Quer saber as principais informações sobre um estado do Brasil?</h1>
+                    <div class="campo_busca">
+                        <div class="row no-gutters">
+                            <div class="col">
+                                <input id="estado_usuario" class="form-control" type="text" name="estado"
+                                    placeholder="Insira o estado aqui" />
+                            </div>
+                            <div class="col-auto">
+                                <button id="botao_buscar" type="button" class="btn btn-info"
+                                    onclick="buscaCliqueBotao()">Buscar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="resposta">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script-collection.js"></script>
+    <script src="./script-view.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
