@@ -1,4 +1,4 @@
-class Estado {
+class Estado { //declarando a classe estado 
     constructor(sigla, nome, capital, regiao, bandeira) {
         this.sigla = sigla;
         this.nome = nome;
@@ -8,7 +8,7 @@ class Estado {
     }
 }
 
-var ac = new Estado('AC', 'Acre', 'Rio Branco', 'Norte', './imagens/bandeiraAC.png');
+var ac = new Estado('AC', 'Acre', 'Rio Branco', 'Norte', './imagens/bandeiraAC.png'); //criando um objeto para cada estado
 var al = new Estado('AL', 'Alagoas', 'Maceió', 'Nordeste', './imagens/bandeiraAL.png');
 var ap = new Estado('AP', 'Amapá', 'Macapá', 'Norte', './imagens/bandeiraAP.png');
 var am = new Estado('AM', 'Amazonas', 'Manaus', 'Norte', './imagens/bandeiraAM.png');
@@ -35,5 +35,5 @@ var sp = new Estado('SP', 'São Paulo', 'São Paulo', 'Sudeste', './imagens/band
 var se = new Estado('SE', 'Sergipe', 'Aracaju', 'Nordeste', './imagens/bandeiraSE.png');
 var to = new Estado('TO', 'Tocantins', 'Palmas', 'Norte', './imagens/bandeiraTO.png');
 
-var listaEstado = new Array();
+var listaEstado = new Array(); //criando uma lista (array) com os objetos
 listaEstado.push(ac, al, ap, am, bh, ce, es, go, ma, mt, ms, mg, pa, pb, pr, pe, pi, rj, rn, rs, ro, rr, sc, sp, se, to);
